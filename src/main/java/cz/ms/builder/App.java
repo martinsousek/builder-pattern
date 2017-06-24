@@ -7,5 +7,11 @@ public class App {
 
     public static void main(String[] args){
 
+        User user = new User.UserBuilder("Martin", "Soušek")
+                .age(29)
+                .address("někde")
+                .nickname("drs")
+                .build();
+
     }
 }
